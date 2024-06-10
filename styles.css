@@ -1,0 +1,64 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'IBM Plex Sans', sans-serif;
+  margin-left: 500px;
+  margin-right: 450px;
+  background-color: black;
+  color: white;
+}
+
+p {
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+ul {
+  text-align: left;
+}
+
+header {
+  font-family: Arial;
+  font-weight: bolder;
+  text-align: center;
+  color: #a0ac3e;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.copyright {
+  text-align: center;
+  font-weight: bold;
+  font-size: 8px;
+}
+
+.grid-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 10px;
+}
+
+
+.grid-list li {
+  display: flex;
+  align-items: center;
+  text-align: left;
+  padding: 0 10px; 
+}
+
+.grid-list li::before {
+  content: '•'; 
+  margin-right: 5px; 
+}
