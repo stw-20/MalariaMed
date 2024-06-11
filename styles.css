@@ -62,3 +62,8 @@ img {
   content: '•'; 
   margin-right: 5px; 
 }
+
+.register {
+  font-size: 8px;
+  vertical-align: super;
+}
