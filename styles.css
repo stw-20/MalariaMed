@@ -5,8 +5,8 @@ html {
 
 body {
   font-family: 'IBM Plex Sans', sans-serif;
-  margin-left: 500px;
-  margin-right: 450px;
+  margin-left: auto;
+  margin-right: auto;
   background-color: black;
   color: white;
   padding-bottom: 50px;
