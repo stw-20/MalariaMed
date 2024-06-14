@@ -13,6 +13,17 @@ body {
   text-align: center;
 }
 
+div {
+  background-color: rgb(80, 9, 146);
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
 a {
   text-align: center;
 }
